@@ -1,0 +1,109 @@
+body{
+    background-color:green;
+}
+
+#home{
+    background-color:blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 5em;
+}
+
+#away{
+    background-color:red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 5em;
+}
+
+#teams{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+
+#scores{
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+}
+
+
+#home-score, #away-score{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 9em;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+}
+
+#buttons{
+    background-color: lightgreen;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 400px;
+    color: white;
+    font-size: 2em;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#home-add, #home-minus{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:blue;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+    border-radius: 8px;
+    border-style: none;
+    border-color: blue;
+}
+
+#home-add:hover, #home-minus:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+
+
+#away-add, #away-minus{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color:red;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+    border-radius: 8px;
+    border-style: none;
+    border-color: red;
+}
+
+#away-add:hover, #away-minus:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+#reset{
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+    border-radius: 8px;
+    border-style: none;
+    border-color: gray;
+}
+
+#reset:hover{
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+
