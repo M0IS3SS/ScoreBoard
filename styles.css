@@ -2,6 +2,20 @@ body{
     background-color:green;
 }
 
+#board{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
 #home{
     background-color:blue;
     color: white;
